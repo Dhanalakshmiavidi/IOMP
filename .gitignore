@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Data files (optional - remove if needed)
+data/
+datasets/
+*.csv
+
+# Model files (optional - remove if needed)
+*.pkl
+*.joblib
+
+# Temporary files
+*.tmp
+*.swp
